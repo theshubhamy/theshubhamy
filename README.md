@@ -19,7 +19,6 @@
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
-
   <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
@@ -48,7 +47,6 @@
       height="40"
     />
   </a>
-
   <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
@@ -57,12 +55,10 @@
       height="40"
     />
   </a>
-
-  <a
-    href="https://firebase.google.com/"
-    target="_blank"
-    rel="noreferrer"
-  >
+<a
+href="https://firebase.google.com/"
+target="\_blank"
+rel="noreferrer">
     <img
       src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
       alt="firebase"
@@ -70,7 +66,6 @@
       height="40"
     />
   </a>
-
   <a href="https://flutter.dev" target="_blank" rel="noreferrer">
     <img
       src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg"
@@ -123,12 +118,10 @@
       height="40"
     />
   </a>
-
-  <a
-    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-    target="_blank"
-    rel="noreferrer"
-  >
+<a
+href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+target="\_blank"
+rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
       alt="javascript"
@@ -144,7 +137,6 @@
       height="40"
     />
   </a>
-
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
@@ -177,12 +169,10 @@
       height="40"
     />
   </a>
-
-  <a
-    href="https://www.postgresql.org"
-    target="_blank"
-    rel="noreferrer"
-  >
+<a
+href="https://www.postgresql.org"
+target="\_blank"
+rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
       alt="postgresql"
@@ -198,7 +188,6 @@
       height="40"
     />
   </a>
-
 
   <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
     <img
@@ -245,6 +234,4 @@
     />
   </a>
 </p>
-
 <br /><br />
-
