@@ -1,9 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 export default function Hero() {
-  const router = useRouter();
   return (
     <div
       className="h-full flex flex-col justify-center
@@ -41,7 +39,7 @@ export default function Hero() {
         }}
         className="text-gray-300 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        Shubham Kumar.
+        Shubham Kumar
       </motion.h1>
       <motion.h2
         initial={{ y: 10, opacity: 0 }}
@@ -78,17 +76,20 @@ export default function Hero() {
       >
         I&apos;m a{' '}
         <span className="text-AAsecondary">Software Developer</span>,
-        i possess strong problem-solving skills and specialize in
-        crafting exceptional <br className="2xl:block hidden" />
-        digital experiences. My current area of focus is in the{' '}
-        <span className="text-AAsecondary">web3 domain</span>, where I
-        actively engage in developing{' '}
-        <br className="2xl:block hidden" />
-        and designing immersive{' '}
-        <span className="text-AAsecondary">web3 applications</span>.
-        This involves working with{' '}
-        <span className="text-AAsecondary">Smart Contracts</span> on
-        the <span className="text-AAsecondary">Blockchain</span>.
+        with a strong knack for problem-solving and expertise in
+        crafting exceptional digital experiences. Currently, my focus
+        lies in the{' '}
+        <span className="text-AAsecondary">
+          MERN (MongoDB, Express, React, Node.js) Stack technology
+        </span>
+        , where I actively engage in developing and designing
+        immersive applications. I'm also deeply involved in the realm
+        of{' '}
+        <span className="text-AAsecondary">
+          Augmented Reality (AR) and Mobile App development,
+        </span>{' '}
+        &nbsp; contributing to the creation of engaging and innovative
+        experiences for users.
       </motion.h3>
       <motion.div
         initial={{ y: 10, opacity: 0 }}

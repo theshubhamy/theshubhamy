@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
@@ -9,24 +9,43 @@ const navigation = [
   { name: 'Projects', href: '/projects' },
 ];
 
-export default function Example() {
+export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
 
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
-    <header className="absolute inset-x-0 top-0 z-50 bg-AAprimary">
+    <header
+      className={`sm:px-8 sticky inset-x-0 top-0 z-50 bg-AAprimary ${
+        isScrolled ? `shadow-lg` : `shadow-none`
+      }`}
+    >
       <nav
         className="flex items-center justify-between p-6 lg:px-8"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <Link href="#" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5">
             <motion.span
               initial={{ scale: 0, y: -4, x: -1 }}
               animate={{ scale: 1 }}
               transition={{ scale: { delay: 1.5, duration: 1.5 } }}
-              className="text-AAsecondary font-Text2 text-4xl"
+              className="text-AAsecondary font-bold text-4xl"
             >
-              Shubham
+              &lt;TheShubham/&gt;
             </motion.span>
           </Link>
         </div>
@@ -89,11 +108,7 @@ export default function Example() {
             }}
             className=""
           >
-            <Link
-              href={'/resume.pdf'}
-              target={'_blank'}
-              rel="noreferrer"
-            >
+            <Link href={'/'} target={'_blank'} rel="noreferrer">
               <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary">
                 Contact Me!
               </button>
@@ -110,7 +125,7 @@ export default function Example() {
         <div className="fixed inset-0 z-50" />
         <Dialog.Panel className="fixed inset-y-0 h-1/2 right-0 z-50 w-full overflow-y-auto bg-AAprimary px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link href="#" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5">
               <motion.span
                 initial={{ scale: 0, y: -4, x: -1 }}
                 animate={{ scale: 1 }}
@@ -163,11 +178,7 @@ export default function Example() {
                   }}
                   className=""
                 >
-                  <a
-                    href={'/resume.pdf'}
-                    target={'_blank'}
-                    rel="noreferrer"
-                  >
+                  <a href={'/'} target={'_blank'} rel="noreferrer">
                     <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary">
                       Connect Me!
                     </button>
