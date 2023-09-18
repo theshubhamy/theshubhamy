@@ -1,7 +1,7 @@
 import React from 'react';
 import ArrowIcon from '@/components/Icons/ArrowIcon';
 import { motion } from 'framer-motion';
-export default function AboutMe(props) {
+const About = () => {
   const technologies = [
     [
       'React',
@@ -179,4 +179,5 @@ export default function AboutMe(props) {
       </div>
     </div>
   );
-}
+};
+export default About;
