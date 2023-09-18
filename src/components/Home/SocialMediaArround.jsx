@@ -37,7 +37,7 @@ export default function SocialMediaArrow(props) {
         animate={{ y: '0%' }}
         transition={{
           y: {
-            delay: 11,
+            delay: 0,
             duration: 0.5,
           },
         }}
@@ -72,7 +72,7 @@ export default function SocialMediaArrow(props) {
         animate={{ y: '0%' }}
         transition={{
           y: {
-            delay: 5,
+            delay: 0,
             duration: 0.5,
           },
         }}

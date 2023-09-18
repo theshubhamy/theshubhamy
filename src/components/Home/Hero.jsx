@@ -12,11 +12,11 @@ export default function Hero() {
         animate={{ y: 0, opacity: 1 }}
         transition={{
           opacity: {
-            delay: 10.4,
+            delay: 0.4,
             duration: 0.2,
           },
           y: {
-            delay: 10.4,
+            delay: 0.4,
             duration: 0.2,
           },
         }}
@@ -29,28 +29,28 @@ export default function Hero() {
         animate={{ y: 0, opacity: 1 }}
         transition={{
           opacity: {
-            delay: 10.5,
+            delay: 0.4,
             duration: 0.2,
           },
           y: {
-            delay: 10.5,
+            delay: 0.4,
             duration: 0.2,
           },
         }}
         className="text-gray-300 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        Shubham Kumar
+        Shubham
       </motion.h1>
       <motion.h2
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
           opacity: {
-            delay: 10.6,
+            delay: 0.6,
             duration: 0.2,
           },
           y: {
-            delay: 10.6,
+            delay: 0.6,
             duration: 0.2,
           },
         }}
@@ -64,11 +64,11 @@ export default function Hero() {
         animate={{ y: 0, opacity: 1 }}
         transition={{
           opacity: {
-            delay: 10.7,
+            delay: 0.7,
             duration: 0.2,
           },
           y: {
-            delay: 10.7,
+            delay: 0.7,
             duration: 0.2,
           },
         }}
@@ -96,11 +96,11 @@ export default function Hero() {
         animate={{ y: 0, opacity: 1 }}
         transition={{
           opacity: {
-            delay: 10.8,
+            delay: 0.8,
             duration: 0.2,
           },
           y: {
-            delay: 10.8,
+            delay: 0.8,
             duration: 0.2,
           },
         }}

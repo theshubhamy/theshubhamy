@@ -45,7 +45,7 @@ export default function Header() {
               transition={{ scale: { delay: 1.5, duration: 1.5 } }}
               className="text-AAsecondary font-bold text-4xl"
             >
-              &lt;TheShubham/&gt;
+              Shubham
             </motion.span>
           </Link>
         </div>

@@ -53,11 +53,11 @@ export default function AboutMe(props) {
               animate={{ y: 0, opacity: 1 }}
               transition={{
                 opacity: {
-                  delay: 10.4,
+                  delay: 0.4,
                   duration: 0.2,
                 },
                 y: {
-                  delay: 10.4,
+                  delay: 0.4,
                   duration: 0.2,
                 },
               }}
