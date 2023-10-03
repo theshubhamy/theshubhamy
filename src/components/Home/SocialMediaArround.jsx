@@ -1,9 +1,8 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import GithubIcon from '@/components/Icons/GithubIcon';
-import LinkedinIcon from '@/components/Icons/LinkedinIcon';
-import InstagramIcon from '@/components/Icons/InstagramIcon';
-import YoutubeIcon from '@/components/Icons/YoutubeIcon';
+import React from "react";
+import { motion } from "framer-motion";
+import GithubIcon from "@/components/Icons/GithubIcon";
+import LinkedinIcon from "@/components/Icons/LinkedinIcon";
+import InstagramIcon from "@/components/Icons/InstagramIcon";
 
 const IconClickableWithAnimation = (props) => {
   return (
@@ -14,15 +13,10 @@ const IconClickableWithAnimation = (props) => {
       }}
       className=""
     >
-      <a
-        href={props.href}
-        className=""
-        target={'_blank'}
-        rel="noreferrer"
-      >
+      <a href={props.href} className="" target={"_blank"} rel="noreferrer">
         <props.Icon
           className={
-            'w-6 h-6 text-gray-400 hover:text-AAsecondary fill-current hover:cursor-pointer'
+            "w-6 h-6 text-gray-400 hover:text-AAsecondary fill-current hover:cursor-pointer"
           }
         />
       </a>
@@ -33,8 +27,8 @@ export default function SocialMediaArrow(props) {
   return (
     <>
       <motion.div
-        initial={{ y: '100%' }}
-        animate={{ y: '0%' }}
+        initial={{ y: "100%" }}
+        animate={{ y: "0%" }}
         transition={{
           y: {
             delay: 0,
@@ -48,19 +42,17 @@ export default function SocialMediaArrow(props) {
             {/* Github Icon */}
             <IconClickableWithAnimation
               Icon={GithubIcon}
-              href={'https://github.com/hktitof'}
+              href={"https://github.com/theshubhamy"}
             />
             {/* Linkedin icon */}
             <IconClickableWithAnimation
               Icon={LinkedinIcon}
-              href={
-                'https://www.linkedin.com/in/abdellatif-anaflous/'
-              }
+              href={"https://www.linkedin.com/in/theshubhamy/"}
             />
 
             <IconClickableWithAnimation
               Icon={InstagramIcon}
-              href={'https://www.instagram.com/xredme/'}
+              href={"https://www.instagram.com/theshubham.dev/"}
             />
           </div>
           <div className="h-28 w-0.5 bg-gray-400"></div>
@@ -68,8 +60,8 @@ export default function SocialMediaArrow(props) {
       </motion.div>
 
       <motion.div
-        initial={{ y: '170%' }}
-        animate={{ y: '0%' }}
+        initial={{ y: "170%" }}
+        animate={{ y: "0%" }}
         transition={{
           y: {
             delay: 0,
@@ -83,7 +75,7 @@ export default function SocialMediaArrow(props) {
           <motion.div className="rotate-90">
             <a
               href="mailto:theshubham.dev@gmail.com"
-              target={'_blank'}
+              target={"_blank"}
               rel="noreferrer"
             >
               <span className=" font-Header tracking-wider text-gray-400 hover:text-AAsecondary hover:cursor-pointer">

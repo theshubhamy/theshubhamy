@@ -1,12 +1,17 @@
-import '@/styles/globals.css';
-import { AnimatePresence } from 'framer-motion';
-import { v4 as uuidv } from 'uuid';
-import Header from '@/components/Header';
+import "@/styles/globals.css";
+import { AnimatePresence } from "framer-motion";
+import { v4 as uuidv } from "uuid";
+import { Suspense } from "react";
+import Header from "@/components/Header";
+
+import Loader from "@/components/Icons/Loader";
 export default function App({ Component, pageProps }) {
   return (
     <AnimatePresence mode="sync" initial={false}>
-      <Header />
-      <Component {...pageProps} key={uuidv()} />
+      <Suspense fallback={<Loader />}>
+        <Header />
+        <Component {...pageProps} key={uuidv()} />
+      </Suspense>
     </AnimatePresence>
   );
 }
