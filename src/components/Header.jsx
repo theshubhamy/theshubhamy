@@ -1,12 +1,12 @@
-import { useState, useEffect } from 'react';
-import { Dialog } from '@headlessui/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
+import { useState, useEffect } from "react";
+import { Dialog } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Link from "next/link";
+import { motion } from "framer-motion";
 const navigation = [
-  { name: 'About', href: '/about' },
-  { name: 'Blog', href: '/blog' },
-  { name: 'Projects', href: '/projects' },
+  { name: "About", href: "/about" },
+  { name: "Blog", href: "/blog" },
+  { name: "Projects", href: "/projects" },
 ];
 
 export default function Header() {
@@ -21,10 +21,10 @@ export default function Header() {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   return (
@@ -67,7 +67,7 @@ export default function Header() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-sm font-semibold leading-6 text-gray-900"
+              className="text-lg font-semibold leading-6 text-gray-900"
             >
               <motion.div
                 initial={{
@@ -79,7 +79,7 @@ export default function Header() {
                   opacity: 1,
                 }}
                 transition={{
-                  type: 'spring',
+                  type: "spring",
                   duration: 1.2,
                   delay: 9.7,
                 }}
@@ -108,7 +108,7 @@ export default function Header() {
             }}
             className=""
           >
-            <Link href={'/'} target={'_blank'} rel="noreferrer">
+            <Link href={"/"} target={"_blank"} rel="noreferrer">
               <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary">
                 Contact Me!
               </button>
@@ -123,16 +123,14 @@ export default function Header() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-50" />
-        <Dialog.Panel className="fixed inset-y-0 h-1/2 right-0 z-50 w-full overflow-y-auto bg-AAprimary px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 h-1/2 right-0 z-50 w-full overflow-y-auto bg-AAprimary px-6 py-6  sm:ring-1 shadow-md sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5">
               <motion.span
                 initial={{ scale: 0, y: -4, x: -1 }}
                 animate={{ scale: 1 }}
-                transition={{
-                  scale: { delay: 1.5, duration: 1.5 },
-                }}
-                className="text-AAsecondary font-Text2 text-4xl"
+                transition={{ scale: { delay: 1.5, duration: 1.5 } }}
+                className="text-AAsecondary font-bold text-4xl"
               >
                 Shubham
               </motion.span>
@@ -178,7 +176,7 @@ export default function Header() {
                   }}
                   className=""
                 >
-                  <Link href={'/'} rel="noreferrer">
+                  <Link href={"/"} rel="noreferrer">
                     <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary">
                       Contact Me
                     </button>
