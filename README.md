@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently based in Bangalore, India.
 
-- 👨‍💻 All of my projects are available at [https://www.theshubham.dev](https://www.theshubham.dev)
+- 👨‍💻 All of my projects are available at [https://theshubham.dev/](https://theshubham.dev/)
 
 - 📝 I regularly write articles on [https://theshubham.dev/blog](https://theshubham.dev/blog)
 
