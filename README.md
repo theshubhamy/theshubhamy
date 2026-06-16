@@ -41,7 +41,7 @@ Full Stack Software Engineer with 4+ years building production SaaS platforms, m
 
 | Role | Company | Period |
 |---|---|---|
-| Full Stack Engineer | TypingPro | Mar 2025 – Present |
+| Founding Engineer | TypingPro | Mar 2025 – Present |
 | Software Engineer | HAIYVEE Information Technology | Aug 2024 – Mar 2025 |
 | Software Engineer | Bloom IT Solutions | Apr 2023 – Jun 2024 |
 | Software Engineer | Sequro Technologies | Aug 2022 – Mar 2023 |
