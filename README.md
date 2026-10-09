@@ -9,8 +9,6 @@ Full Stack Software Engineer with 4+ years building production SaaS platforms, m
 | Product | Description | Stack |
 |---|---|---|
 | [**typingpro.in**](https://typingpro.in) | Real-time typing platform — 12,000+ active users | Node.js · Express · MongoDB · AWS Lambda |
-| [**ranktopper.in**](https://ranktopper.in) | Rank prediction for Indian competitive exams | Next.js · Node.js · Puppeteer · PostgreSQL |
-
 ---
 
 ## 🛠️ Tech Stack
@@ -34,18 +32,6 @@ Full Stack Software Engineer with 4+ years building production SaaS platforms, m
 - 🔌 [**zevolt**](https://github.com/theshubhamy/zevolt) — NestJS microservices platform for EV charging infrastructure in India
 - 🏥 [**MediTrack**](https://github.com/theshubhamy/MediTrack) — Multi-tenant clinic management SaaS with RBAC and React Native companion app
 - 🛒 [**quickShop**](https://github.com/theshubhamy/quickShop) — Real-time quick commerce app with React Native, Supabase, and PostgreSQL
-
----
-
-## 💼 Experience
-
-| Role | Company | Period |
-|---|---|---|
-| Founding Engineer | TypingPro | Mar 2025 – Present |
-| Software Engineer | HAIYVEE Information Technology | Aug 2024 – Mar 2025 |
-| Software Engineer | Bloom IT Solutions | Apr 2023 – Jun 2024 |
-| Software Engineer | Sequro Technologies | Aug 2022 – Mar 2023 |
-| Software Engineer Intern | Sequro Technologies | Jan 2022 – Apr 2022 |
 
 ---
 
