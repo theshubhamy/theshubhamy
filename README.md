@@ -1,6 +1,6 @@
 # Hi, I'm Shubham Kumar 👋
 
-Full Stack Software Engineer with 4+ years building production SaaS platforms, mobile apps, and microservices systems across fintech, social media, EV infrastructure, and construction tech.
+Full Stack Software Engineer with 4+ years building production SaaS platforms, mobile apps, and microservices systems across aviation Tech, fintech, social media, EV infrastructure, and construction tech.
 
 ---
 
